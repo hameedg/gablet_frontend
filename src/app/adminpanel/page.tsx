@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -12,7 +13,7 @@ interface Property {
     price: number;
   }
   
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+ 
     const fetchData = async (
     method: string,
     id?: string,
