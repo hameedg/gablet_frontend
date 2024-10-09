@@ -12,7 +12,8 @@ interface Property {
     price: number;
   }
   
-const fetchData = async (
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const fetchData = async (
     method: string,
     id?: string,
     loggedInStatus?: boolean,
